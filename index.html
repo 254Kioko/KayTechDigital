@@ -687,23 +687,24 @@
           <div class="col-lg-10">
             <div class="contact-form-wrapper">
               <h2 class="text-center mb-4">Get in Touch</h2>
-<form name ="website" data-netlify="true" class="php-email-form">
+<form name="website" method="POST" data-netlify="true" class="php-email-form">
+  <input type="hidden" name="form-name" value="website">
+
   <div class="row g-3">
     <div class="col-md-6">
       <div class="form-group">
         <div class="input-with-icon">
           <i class="bi bi-person"></i>
-          <input type="text" class="form-control" name="name" placeholder="First Name" required="">
+          <input type="text" class="form-control" name="name" placeholder="First Name" required>
         </div>
       </div>
     </div>
 
-    <!-- PHONE NUMBER FIELD ADDED HERE -->
     <div class="col-md-6">
       <div class="form-group">
         <div class="input-with-icon">
           <i class="bi bi-telephone"></i>
-          <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required="">
+          <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
         </div>
       </div>
     </div>
@@ -712,27 +713,24 @@
       <div class="form-group">
         <div class="input-with-icon">
           <i class="bi bi-envelope"></i>
-          <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
+          <input type="email" class="form-control" name="email" placeholder="Email Address" required>
         </div>
       </div>
     </div>
 
-   
-
-    <!-- CATEGORY DROPDOWN -->
     <div class="col-md-12">
       <div class="form-group">
         <div class="input-with-icon">
           <i class="bi bi-list"></i>
           <select name="category" class="form-control" required>
             <option value="">Select Web Design Category</option>
-            <option value="business"name="category">Business Website</option>
-            <option value="portfolio"name="portfolio">Portfolio Website</option>
-            <option value="ecommerce"name="ecommerce">E-commerce Website</option>
-            <option value="blog"name="blog">Blog / News Site</option>
-            <option value="nonprofit"name="nonprofit">Non-Profit / NGO Website</option>
-            <option value="landing"name="landingpage">Landing Page</option>
-            <option value="custom"name="customdesign">Custom Design</option>
+            <option value="business">Business Website</option>
+            <option value="portfolio">Portfolio Website</option>
+            <option value="ecommerce">E-commerce Website</option>
+            <option value="blog">Blog / News Site</option>
+            <option value="nonprofit">Non-Profit / NGO Website</option>
+            <option value="landing">Landing Page</option>
+            <option value="custom">Custom Design</option>
           </select>
         </div>
       </div>
@@ -742,17 +740,17 @@
       <div class="form-group">
         <div class="input-with-icon">
           <i class="bi bi-chat-dots message-icon"></i>
-          <textarea class="form-control" name="message" placeholder="Write Message(Optional)..." style="height: 180px" =""></textarea>
+          <textarea class="form-control" name="message" placeholder="Write Message (Optional)..." style="height: 180px"></textarea>
         </div>
       </div>
     </div>
 
-  
     <div class="col-12 text-center">
       <button type="submit" class="btn btn-primary btn-submit">SUBMIT</button>
     </div>
   </div>
 </form>
+
 
             </div>
           </div>
