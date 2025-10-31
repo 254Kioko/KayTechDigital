@@ -577,6 +577,49 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+/* ===== Projects Section ===== */
+.projects .project-card {
+  position: relative;
+  transition: all 0.4s ease;
+  border-radius: 16px;
+}
+
+.projects .project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.projects .project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(60%);
+}
+
+.projects .project-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding: 20px;
+  transition: opacity 0.4s ease;
+}
+
+.projects .project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.projects h4 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.projects p {
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
 # Preloader
 --------------------------------------------------------------*/
 #preloader {
