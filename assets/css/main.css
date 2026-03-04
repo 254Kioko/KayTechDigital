@@ -653,7 +653,45 @@ h6 {
     transform: rotate(360deg);
   }
 }
+.portfolio-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
 
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.browser-mockup {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.browser-top {
+  background: #e0e0e0;
+  padding: 8px 12px;
+}
+
+.browser-top span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #bbb;
+}
+
+.browser-mockup img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-content {
+  padding: 20px;
+}
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
