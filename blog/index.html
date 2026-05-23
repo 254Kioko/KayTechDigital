@@ -2,95 +2,133 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <!-- ==========================================
+       BASIC META
+  =========================================== -->
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0d6efd">
 
-  <!-- ═══════════════════════════════════════════
-       SEO — PRIMARY
-  ═══════════════════════════════════════════ -->
-  <title>Blog | KayTech Digital — Web Dev, AI, Business & Finance Tips</title>
-  <meta name="description" content="Explore the KayTech Digital blog for expert guides on web development, AI tools, making money online in Kenya, side hustles, fintech, personal finance and business growth.">
-  <meta name="keywords" content="web development Kenya, make money online Kenya, AI tools for business, side hustles Kenya, fintech Kenya, business ideas Kenya, online jobs Kenya, digital marketing Kenya">
-  <meta name="robots" content="index, follow">
+  <!-- ==========================================
+       ADSENSE
+  =========================================== -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1905296458146651"
+    crossorigin="anonymous"></script>
+
+  <!-- ==========================================
+       SEO META
+  =========================================== -->
+  <title>KayTech Digital Blog | Web Development, AI, Finance & Business Tips Kenya</title>
+
+  <meta name="description"
+    content="Explore expert guides on web development, AI tools, making money online in Kenya, finance, business growth, side hustles, fintech, SEO and digital skills with KayTech Digital.">
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
   <meta name="author" content="KayTech Digital">
-  <link rel="canonical" href="https://www.kaytechdigital.com/blog.html">
+  <meta name="publisher" content="KayTech Digital">
 
-  <!-- ═══════════════════════════════════════════
-       OPEN GRAPH
-  ═══════════════════════════════════════════ -->
+  <meta name="keywords"
+    content="web development Kenya, make money online Kenya, AI tools Kenya, side hustles Kenya, finance Kenya, business ideas Kenya, online jobs Kenya, digital marketing Kenya, fintech Kenya">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://kaytechdigital.co.ke/blog/">
+
+  <!-- ==========================================
+       OPEN GRAPH (FACEBOOK / LINKEDIN)
+  =========================================== -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.kaytechdigital.com/blog.html">
-  <meta property="og:title" content="Blog | KayTech Digital — Web Dev, AI, Business & Finance Tips">
-  <meta property="og:description" content="Expert guides on web development, AI tools, making money online in Kenya, side hustles, fintech and business growth.">
-  <meta property="og:image" content="https://www.kaytechdigital.com/assets/img/blog-og.jpg">
-  <meta property="og:site_name" content="KayTech Digital">
-  <meta property="og:locale" content="en_KE">
+  <meta property="og:title"
+    content="KayTech Digital Blog | Web Development, AI, Business & Finance">
+  <meta property="og:description"
+    content="Learn web development, AI, side hustles, finance, fintech, online business and money-making skills in Kenya with practical expert guides.">
+  <meta property="og:url"
+    content="https://kaytechdigital.co.ke/blog/">
+  <meta property="og:image"
+    content="https://kaytechdigital.co.ke/assets/img/blog-og.jpg">
+  <meta property="og:site_name"
+    content="KayTech Digital">
+  <meta property="og:locale"
+    content="en_KE">
 
-  <!-- ═══════════════════════════════════════════
-       TWITTER CARD
-  ═══════════════════════════════════════════ -->
+  <!-- ==========================================
+       TWITTER/X CARD
+  =========================================== -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@kaytechdigital">
-  <meta name="twitter:title" content="Blog | KayTech Digital">
-  <meta name="twitter:description" content="Expert guides on web development, AI tools, making money online in Kenya, side hustles, fintech and business growth.">
-  <meta name="twitter:image" content="https://www.kaytechdigital.com/assets/img/blog-og.jpg">
+  <meta name="twitter:title"
+    content="KayTech Digital Blog | Tech, Finance & Business Tips">
+  <meta name="twitter:description"
+    content="Explore web development, AI, business, finance and online income guides tailored for Kenya and global readers.">
+  <meta name="twitter:image"
+    content="https://kaytechdigital.co.ke/assets/img/blog-og.jpg">
 
-  <!-- ═══════════════════════════════════════════
+  <!-- ==========================================
        FAVICONS
-  ═══════════════════════════════════════════ -->
-  <link rel="icon" href="assets/img/favicon.png">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  =========================================== -->
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="shortcut icon" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="../assets/img/favicon.png">
 
-  <!-- ═══════════════════════════════════════════
-       FONTS  (preconnect → faster LCP)
-  ═══════════════════════════════════════════ -->
+  <!-- ==========================================
+       PERFORMANCE / FONTS
+  =========================================== -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Raleway:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <!-- ═══════════════════════════════════════════
-       ICONS & LIBRARIES
-  ═══════════════════════════════════════════ -->
-  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Raleway:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
 
-  <!-- ═══════════════════════════════════════════
-       STYLESHEETS — order matters
-  ═══════════════════════════════════════════ -->
-<link rel="stylesheet" href="../assets/css/main.css">
-<link rel="stylesheet" href="../assets/css/blog.css">
+  <!-- ==========================================
+       CSS LIBRARIES
+  =========================================== -->
+  <link rel="stylesheet"
+    href="../assets/vendor/bootstrap/css/bootstrap.min.css">
 
-  <!-- ═══════════════════════════════════════════
-       SCHEMA MARKUP
-  ═══════════════════════════════════════════ -->
+  <link rel="stylesheet"
+    href="../assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+  <link rel="stylesheet"
+    href="../assets/vendor/aos/aos.css">
+
+  <!-- ==========================================
+       MAIN CSS
+  =========================================== -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/blog.css">
+
+  <!-- ==========================================
+       STRUCTURED DATA (SCHEMA SEO)
+  =========================================== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.kaytechdigital.com/#organization",
+        "@id": "https://kaytechdigital.co.ke/#organization",
         "name": "KayTech Digital",
-        "url": "https://www.kaytechdigital.com",
+        "url": "https://kaytechdigital.co.ke",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.kaytechdigital.com/assets/img/logo.png"
+          "url": "https://kaytechdigital.co.ke/assets/img/logo.png"
         },
         "sameAs": [
-          "https://twitter.com/kaytechdigital",
-          "https://www.linkedin.com/company/kaytechdigital",
-          "https://www.facebook.com/kaytechdigital"
+          "https://www.facebook.com/kaytechdigital",
+          "https://www.instagram.com/kaytechdigital",
+          "https://www.linkedin.com/company/kaytechdigital"
         ]
       },
       {
         "@type": "Blog",
-        "@id": "https://www.kaytechdigital.com/blog.html",
+        "@id": "https://kaytechdigital.co.ke/blog/",
         "name": "KayTech Digital Blog",
-        "description": "Expert guides on web development, AI tools, making money online in Kenya, side hustles, fintech and business growth.",
-        "url": "https://www.kaytechdigital.com/blog.html",
+        "description":
+          "Expert guides on web development, AI, finance, business growth, side hustles, fintech and making money online in Kenya.",
+        "url": "https://kaytechdigital.co.ke/blog/",
         "publisher": {
-          "@id": "https://www.kaytechdigital.com/#organization"
+          "@id": "https://kaytechdigital.co.ke/#organization"
         },
         "inLanguage": "en"
       },
@@ -101,13 +139,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.kaytechdigital.com/"
+            "item": "https://kaytechdigital.co.ke/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://www.kaytechdigital.com/blog.html"
+            "item": "https://kaytechdigital.co.ke/blog/"
           }
         ]
       }
